@@ -1,0 +1,9 @@
+name: review-comment-scraper
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python>=3.8.16
+  - requests>=2.32.3
+  - beautifulsoup4>=4.12.3
+  - pip
