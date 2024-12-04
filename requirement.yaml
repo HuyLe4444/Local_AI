@@ -1,0 +1,21 @@
+---
+name: sentiment_analysis
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.10.13
+  - cpuonly
+  - pytorch=2.4.1
+  - transformers
+  - tqdm
+  - tokenizers
+  - matplotlib
+  - requests
+  - pytest
+  - beautifulsoup4
+  - pip
+  - pip:
+      - aiohttp==3.8.6
+      - requests
